@@ -1,11 +1,16 @@
-#customer bill calculator
-customer_name = input("Customer Name : ")
-customer_details = input("Table No : ")
-bill_total = int(input("Total : " ))
-before_tax_total = bill_total
-after_tax_total = (before_tax_total + 50)
-print("CUSTOMER DETAILS")
-print("Customer Name: "+customer_name,"\n","Table No: "+customer_details)
-print("Before Tax: " + str(before_tax_total) )
-print(f"After Tax:  {after_tax_total}")
-print("Grand Total: " + str(after_tax_total))
+#ask the user to input their username and password twice.if the password is less than 8 characters or 
+# does not match, ask the user to re-enter their username and passwords. 
+
+username = input("Enter Your Username: ")
+password = input("Enter your password(must be 8 characters long): ")
+pass_comfirmation = input("Comfirm your Password : ")
+
+
+if len(password) < 8 :
+    print("password must be 8 characters long")
+elif pass_comfirmation < password: 
+        print("password does not match")
+else:
+    print("An Account has been made")    
+
+
