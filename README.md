@@ -1,3 +1,3 @@
-# python beginner tutorial (Very Academy).
-this is my first repository on git hub.
-i am learning python from Very Academy`s beginners tutorial. 
+# Python Beginner Tutorial (Very Academy).
+This is my first repository on git hub.
+I am learning python from Very Academy`s Beginners Tutorial. 
